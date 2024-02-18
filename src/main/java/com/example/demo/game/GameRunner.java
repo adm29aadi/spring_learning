@@ -1,16 +1,16 @@
 package com.example.demo.game;
 
 public class GameRunner {
-    MarioGame mariogame;
-	public GameRunner(MarioGame mariogame) {
-		this.mariogame=mariogame;
+    private GamingConsole game;
+	public GameRunner(GamingConsole game) {
+		this.game=game;
 		System.out.println("GameRunner instance created");
 	}
 	public void run() {
-		mariogame.up();
-		mariogame.down();
-		mariogame.left();
-		mariogame.right();
+		game.up();
+		game.down();
+		game.left();
+		game.right();
 		
 	}
 	public static void main(String[] args) {
