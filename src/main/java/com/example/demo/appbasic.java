@@ -14,6 +14,5 @@ public class appbasic {
     var gamerunner2=new GameRunner(game2);
     gamerunner.run();
     gamerunner2.run();
-    System.out.println("adarsh MIshra");
 	}
 }
